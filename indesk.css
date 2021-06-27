@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,900&family=Roboto:ital,wght@0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+p , a{
+    font-family:'Lato', sans-serif;;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1000px;
+    background : #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.profile-img{
+    width: 100px;
+    height: 110px;
+    border: 5px solid #11999e;
+    border-radius: 50%;
+    float: left;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+    font-family: 'Roboto', sans-serif;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+
+}
+.header-contact a {
+    text-decoration: none;
+    color: #11999e;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    color: tomato;
+}
+.under-header{
+    margin-top: 30px;
+    border: 3px solid ;
+    border-bottom: none;
+}
+.left-content{
+    float: left;
+    width: 30%;
+}
+.right-content{
+    float: right;    
+    width: 70%;
+}
+.right-content p {
+    margin-bottom: 20px;
+}
+.content{
+    margin: 20px;
+}
+.under-main{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px;
+}
+.r-content-left{
+    float: left;
+    width: 45%;
+}
+.r-content-right{
+    float: right;
+    width: 45%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+footer p {
+    color: white;
+    margin-top: 20px;
+}
